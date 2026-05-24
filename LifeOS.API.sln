@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AABB55C7-740E-449A-B6A1-8B3E0E3FEB07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeOS.Api", "src\Api\LifeOS.Api.csproj", "{DE937759-8B11-4F5E-BF26-A1C96510BA3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeOS.Application", "src\Application\LifeOS.Application.csproj", "{5007D002-1055-4EAD-8B61-30173AD20A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeOS.Domain", "src\Domain\LifeOS.Domain.csproj", "{1735D221-3628-4403-8A84-B4E7759897DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeOS.Infra.Data", "src\Infra.Data\LifeOS.Infra.Data.csproj", "{13D3AE1E-E018-472E-A8A7-71C3E99D5254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeOS.Infra.IoC", "src\Infra.IoC\LifeOS.Infra.IoC.csproj", "{B0AA3E5A-504B-4695-A6D9-2A2966F24F5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE937759-8B11-4F5E-BF26-A1C96510BA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE937759-8B11-4F5E-BF26-A1C96510BA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE937759-8B11-4F5E-BF26-A1C96510BA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE937759-8B11-4F5E-BF26-A1C96510BA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5007D002-1055-4EAD-8B61-30173AD20A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5007D002-1055-4EAD-8B61-30173AD20A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5007D002-1055-4EAD-8B61-30173AD20A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5007D002-1055-4EAD-8B61-30173AD20A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1735D221-3628-4403-8A84-B4E7759897DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1735D221-3628-4403-8A84-B4E7759897DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1735D221-3628-4403-8A84-B4E7759897DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1735D221-3628-4403-8A84-B4E7759897DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D3AE1E-E018-472E-A8A7-71C3E99D5254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D3AE1E-E018-472E-A8A7-71C3E99D5254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D3AE1E-E018-472E-A8A7-71C3E99D5254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D3AE1E-E018-472E-A8A7-71C3E99D5254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AA3E5A-504B-4695-A6D9-2A2966F24F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AA3E5A-504B-4695-A6D9-2A2966F24F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AA3E5A-504B-4695-A6D9-2A2966F24F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AA3E5A-504B-4695-A6D9-2A2966F24F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE937759-8B11-4F5E-BF26-A1C96510BA3B} = {AABB55C7-740E-449A-B6A1-8B3E0E3FEB07}
+		{5007D002-1055-4EAD-8B61-30173AD20A19} = {AABB55C7-740E-449A-B6A1-8B3E0E3FEB07}
+		{1735D221-3628-4403-8A84-B4E7759897DF} = {AABB55C7-740E-449A-B6A1-8B3E0E3FEB07}
+		{13D3AE1E-E018-472E-A8A7-71C3E99D5254} = {AABB55C7-740E-449A-B6A1-8B3E0E3FEB07}
+		{B0AA3E5A-504B-4695-A6D9-2A2966F24F5B} = {AABB55C7-740E-449A-B6A1-8B3E0E3FEB07}
+	EndGlobalSection
+EndGlobal
