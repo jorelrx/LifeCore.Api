@@ -1,17 +1,17 @@
+using AutoMapper;
+using FluentValidation;
+using System.Text;
 using LifeOS.Api.Middlewares;
 using LifeOS.Application;
 using LifeOS.Application.Auth.Commands;
 using LifeOS.Application.Auth.Validators;
 using LifeOS.Application.Abstractions.Security;
-using AutoMapper;
-using FluentValidation;
 using LifeOS.Application.Users.Profiles;
 using LifeOS.Application.Users.Commands;
 using LifeOS.Application.Users.Validators;
 using LifeOS.Infra.IoC;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,7 +28,6 @@ builder.Services.AddSingleton<IMapper>(_ =>
     return mapperConfiguration.CreateMapper();
 });
 builder.Services.AddScoped<IValidator<RegisterUserCommand>, RegisterUserCommandValidator>();
-builder.Services.AddScoped<IValidator<LoginUserCommand>, LoginUserCommandValidator>();
 builder.Services.AddScoped<IValidator<GoogleLoginCommand>, GoogleLoginCommandValidator>();
 builder.Services.AddScoped<IValidator<RefreshTokenCommand>, RefreshTokenCommandValidator>();
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection(JwtSettings.SectionName));
