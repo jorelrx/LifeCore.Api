@@ -1,8 +1,8 @@
 using FluentValidation;
-using LifeOS.Application.Common.Exceptions;
+using LifeCore.Application.Common.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LifeOS.Api.Middlewares;
+namespace LifeCore.Api.Middlewares;
 
 public sealed class ExceptionHandlingMiddleware(RequestDelegate next)
 {

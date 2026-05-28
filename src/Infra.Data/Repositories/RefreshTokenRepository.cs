@@ -1,13 +1,13 @@
-using LifeOS.Application.Abstractions.Persistence;
-using LifeOS.Domain.Entities;
-using LifeOS.Infra.Data.Persistence;
+using LifeCore.Application.Abstractions.Persistence;
+using LifeCore.Domain.Entities;
+using LifeCore.Infra.Data.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace LifeOS.Infra.Data.Repositories;
+namespace LifeCore.Infra.Data.Repositories;
 
-public sealed class RefreshTokenRepository(LifeOSDbContext context) : IRefreshTokenRepository
+public sealed class RefreshTokenRepository(LifeCoreDbContext context) : IRefreshTokenRepository
 {
-    private readonly LifeOSDbContext _context = context;
+    private readonly LifeCoreDbContext _context = context;
 
     public Task AddAsync(RefreshToken refreshToken, CancellationToken cancellationToken)
     {

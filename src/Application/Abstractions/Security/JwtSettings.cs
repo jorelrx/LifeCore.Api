@@ -1,4 +1,4 @@
-namespace LifeOS.Application.Abstractions.Security;
+namespace LifeCore.Application.Abstractions.Security;
 
 public sealed class JwtSettings
 {

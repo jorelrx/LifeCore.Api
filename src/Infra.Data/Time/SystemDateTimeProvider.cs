@@ -1,6 +1,6 @@
-using LifeOS.Application.Abstractions.Time;
+using LifeCore.Application.Abstractions.Time;
 
-namespace LifeOS.Infra.Data.Time;
+namespace LifeCore.Infra.Data.Time;
 
 public sealed class SystemDateTimeProvider : IDateTimeProvider
 {

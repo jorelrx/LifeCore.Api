@@ -1,6 +1,6 @@
-using LifeOS.Domain.Entities;
+using LifeCore.Domain.Entities;
 
-namespace LifeOS.Application.Abstractions.Security;
+namespace LifeCore.Application.Abstractions.Security;
 
 public interface ITokenService
 {

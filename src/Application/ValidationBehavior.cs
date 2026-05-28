@@ -1,7 +1,7 @@
 using FluentValidation;
 using MediatR;
 
-namespace LifeOS.Application;
+namespace LifeCore.Application;
 
 public sealed class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TRequest>> validators) : IPipelineBehavior<TRequest, TResponse>
     where TRequest : notnull

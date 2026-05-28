@@ -1,14 +1,14 @@
 using AutoMapper;
-using LifeOS.Application.Abstractions.Persistence;
-using LifeOS.Application.Abstractions.Security;
-using LifeOS.Application.Auth.Commands;
-using LifeOS.Application.Auth.Dtos;
-using LifeOS.Application.Common.Exceptions;
-using LifeOS.Application.Users.Dtos;
-using LifeOS.Domain.Entities;
+using LifeCore.Application.Abstractions.Persistence;
+using LifeCore.Application.Abstractions.Security;
+using LifeCore.Application.Auth.Commands;
+using LifeCore.Application.Auth.Dtos;
+using LifeCore.Application.Common.Exceptions;
+using LifeCore.Application.Users.Dtos;
+using LifeCore.Domain.Entities;
 using MediatR;
 
-namespace LifeOS.Application.Auth.Handlers;
+namespace LifeCore.Application.Auth.Handlers;
 
 public sealed class GoogleLoginCommandHandler(
     IUserRepository userRepository,

@@ -1,7 +1,7 @@
 using FluentValidation;
-using LifeOS.Application.Users.Commands;
+using LifeCore.Application.Users.Commands;
 
-namespace LifeOS.Application.Users.Validators;
+namespace LifeCore.Application.Users.Validators;
 
 public sealed class RegisterUserCommandValidator : AbstractValidator<RegisterUserCommand>
 {

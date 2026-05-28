@@ -1,4 +1,4 @@
-namespace LifeOS.Application.Users.Dtos;
+namespace LifeCore.Application.Users.Dtos;
 
 public sealed record UserDto(
     Guid Id,

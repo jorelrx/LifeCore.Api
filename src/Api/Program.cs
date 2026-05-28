@@ -1,15 +1,15 @@
 using AutoMapper;
 using FluentValidation;
 using System.Text;
-using LifeOS.Api.Middlewares;
-using LifeOS.Application;
-using LifeOS.Application.Auth.Commands;
-using LifeOS.Application.Auth.Validators;
-using LifeOS.Application.Abstractions.Security;
-using LifeOS.Application.Users.Profiles;
-using LifeOS.Application.Users.Commands;
-using LifeOS.Application.Users.Validators;
-using LifeOS.Infra.IoC;
+using LifeCore.Api.Middlewares;
+using LifeCore.Application;
+using LifeCore.Application.Auth.Commands;
+using LifeCore.Application.Auth.Validators;
+using LifeCore.Application.Abstractions.Security;
+using LifeCore.Application.Users.Profiles;
+using LifeCore.Application.Users.Commands;
+using LifeCore.Application.Users.Validators;
+using LifeCore.Infra.IoC;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 

@@ -1,6 +1,6 @@
-# LifeOS Backend - Copilot Instructions
+# LifeCore Backend - Copilot Instructions
 
-Este repositório contem o backend do LifeOS, um sistema de gerenciamento de habitos e tarefas com integracao futura com Google Calendar e com aplicativo mobile consumindo esta API.
+Este repositório contem o backend do LifeCore, um sistema de gerenciamento de habitos e tarefas com integracao futura com Google Calendar e com aplicativo mobile consumindo esta API.
 
 ## Objetivo do projeto
 

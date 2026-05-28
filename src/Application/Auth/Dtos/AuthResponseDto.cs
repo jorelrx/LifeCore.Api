@@ -1,6 +1,6 @@
-using LifeOS.Application.Users.Dtos;
+using LifeCore.Application.Users.Dtos;
 
-namespace LifeOS.Application.Auth.Dtos;
+namespace LifeCore.Application.Auth.Dtos;
 
 public sealed record AuthResponseDto(
     UserDto User,

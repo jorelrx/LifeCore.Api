@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\LifeOS.Application.csproj" />
-    <ProjectReference Include="..\Infra.IoC\LifeOS.Infra.IoC.csproj" />
+    <ProjectReference Include="..\Application\LifeCore.Application.csproj" />
+    <ProjectReference Include="..\Infra.IoC\LifeCore.Infra.IoC.csproj" />
   </ItemGroup>
 
   <ItemGroup>

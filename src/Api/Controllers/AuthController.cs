@@ -1,11 +1,11 @@
 using System.Net.Http.Headers;
-using LifeOS.Application.Auth.Commands;
-using LifeOS.Application.Auth.Dtos;
+using LifeCore.Application.Auth.Commands;
+using LifeCore.Application.Auth.Dtos;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LifeOS.Api.Controllers;
+namespace LifeCore.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

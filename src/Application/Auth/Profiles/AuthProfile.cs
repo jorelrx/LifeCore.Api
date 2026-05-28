@@ -1,8 +1,8 @@
 using AutoMapper;
-using LifeOS.Application.Auth.Commands;
-using LifeOS.Application.Auth.Dtos;
+using LifeCore.Application.Auth.Commands;
+using LifeCore.Application.Auth.Dtos;
 
-namespace LifeOS.Application.Auth.Profiles;
+namespace LifeCore.Application.Auth.Profiles;
 
 public sealed class AuthProfile : Profile
 {

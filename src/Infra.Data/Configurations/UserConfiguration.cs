@@ -1,8 +1,8 @@
-using LifeOS.Domain.Entities;
+using LifeCore.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace LifeOS.Infra.Data.Configurations;
+namespace LifeCore.Infra.Data.Configurations;
 
 public sealed class UserConfiguration : IEntityTypeConfiguration<User>
 {

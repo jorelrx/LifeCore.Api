@@ -1,4 +1,4 @@
-namespace LifeOS.Domain.Entities;
+namespace LifeCore.Domain.Entities;
 
 public sealed class User
 {

@@ -1,13 +1,13 @@
-using LifeOS.Application.Abstractions.Persistence;
-using LifeOS.Domain.Entities;
-using LifeOS.Infra.Data.Persistence;
+using LifeCore.Application.Abstractions.Persistence;
+using LifeCore.Domain.Entities;
+using LifeCore.Infra.Data.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace LifeOS.Infra.Data.Repositories;
+namespace LifeCore.Infra.Data.Repositories;
 
-public sealed class UserRepository(LifeOSDbContext context) : IUserRepository
+public sealed class UserRepository(LifeCoreDbContext context) : IUserRepository
 {
-    private readonly LifeOSDbContext _context = context;
+    private readonly LifeCoreDbContext _context = context;
 
     public Task AddAsync(User user, CancellationToken cancellationToken)
     {

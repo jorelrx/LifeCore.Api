@@ -1,4 +1,4 @@
-namespace LifeOS.Application.Abstractions.Persistence;
+namespace LifeCore.Application.Abstractions.Persistence;
 
 public interface IUnitOfWork
 {

@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\LifeOS.Application.csproj" />
-    <ProjectReference Include="..\Infra.Data\LifeOS.Infra.Data.csproj" />
+    <ProjectReference Include="..\Application\LifeCore.Application.csproj" />
+    <ProjectReference Include="..\Infra.Data\LifeCore.Infra.Data.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

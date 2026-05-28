@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace LifeOS.Infra.Data.Migrations
+namespace LifeCore.Infra.Data.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

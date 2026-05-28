@@ -1,15 +1,15 @@
-using LifeOS.Application.Abstractions.Persistence;
-using LifeOS.Application.Abstractions.Security;
-using LifeOS.Application.Abstractions.Time;
-using LifeOS.Infra.Data.Persistence;
-using LifeOS.Infra.Data.Repositories;
-using LifeOS.Infra.Data.Security;
-using LifeOS.Infra.Data.Time;
+using LifeCore.Application.Abstractions.Persistence;
+using LifeCore.Application.Abstractions.Security;
+using LifeCore.Application.Abstractions.Time;
+using LifeCore.Infra.Data.Persistence;
+using LifeCore.Infra.Data.Repositories;
+using LifeCore.Infra.Data.Security;
+using LifeCore.Infra.Data.Time;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace LifeOS.Infra.IoC;
+namespace LifeCore.Infra.IoC;
 
 public static class DependencyInjection
 {
@@ -18,12 +18,12 @@ public static class DependencyInjection
         var connectionString = configuration.GetConnectionString("DefaultConnection")
             ?? throw new InvalidOperationException("ConnectionStrings:DefaultConnection was not configured.");
 
-        services.AddDbContext<LifeOSDbContext>(options =>
-            options.UseNpgsql(connectionString, npgsql => npgsql.MigrationsAssembly(typeof(LifeOSDbContext).Assembly.FullName)));
+        services.AddDbContext<LifeCoreDbContext>(options =>
+            options.UseNpgsql(connectionString, npgsql => npgsql.MigrationsAssembly(typeof(LifeCoreDbContext).Assembly.FullName)));
 
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
-        services.AddScoped<IUnitOfWork>(provider => provider.GetRequiredService<LifeOSDbContext>());
+        services.AddScoped<IUnitOfWork>(provider => provider.GetRequiredService<LifeCoreDbContext>());
         services.AddScoped<IPasswordHasher, Pbkdf2PasswordHasher>();
         services.AddScoped<ITokenService, JwtTokenService>();
         services.AddScoped<IGoogleAuthService, GoogleAuthService>();

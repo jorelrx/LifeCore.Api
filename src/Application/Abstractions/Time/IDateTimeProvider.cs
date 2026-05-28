@@ -1,4 +1,4 @@
-namespace LifeOS.Application.Abstractions.Time;
+namespace LifeCore.Application.Abstractions.Time;
 
 public interface IDateTimeProvider
 {

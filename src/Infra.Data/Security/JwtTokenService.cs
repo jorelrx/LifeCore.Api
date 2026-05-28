@@ -2,13 +2,13 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-using LifeOS.Application.Abstractions.Security;
-using LifeOS.Application.Abstractions.Time;
-using LifeOS.Domain.Entities;
+using LifeCore.Application.Abstractions.Security;
+using LifeCore.Application.Abstractions.Time;
+using LifeCore.Domain.Entities;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace LifeOS.Infra.Data.Security;
+namespace LifeCore.Infra.Data.Security;
 
 public sealed class JwtTokenService : ITokenService
 {

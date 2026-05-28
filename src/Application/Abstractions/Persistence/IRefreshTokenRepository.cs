@@ -1,6 +1,6 @@
-using LifeOS.Domain.Entities;
+using LifeCore.Domain.Entities;
 
-namespace LifeOS.Application.Abstractions.Persistence;
+namespace LifeCore.Application.Abstractions.Persistence;
 
 public interface IRefreshTokenRepository
 {

@@ -1,7 +1,7 @@
 using FluentValidation;
-using LifeOS.Application.Auth.Commands;
+using LifeCore.Application.Auth.Commands;
 
-namespace LifeOS.Application.Auth.Validators;
+namespace LifeCore.Application.Auth.Validators;
 
 public sealed class RefreshTokenCommandValidator : AbstractValidator<RefreshTokenCommand>
 {

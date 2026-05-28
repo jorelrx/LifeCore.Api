@@ -1,8 +1,8 @@
-using LifeOS.Application.Abstractions.Security;
+using LifeCore.Application.Abstractions.Security;
 using Google.Apis.Auth;
 using Microsoft.Extensions.Configuration;
 
-namespace LifeOS.Infra.Data.Security;
+namespace LifeCore.Infra.Data.Security;
 
 public sealed class GoogleAuthService(IConfiguration configuration) : IGoogleAuthService
 {

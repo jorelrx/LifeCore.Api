@@ -1,9 +1,9 @@
 using AutoMapper;
-using LifeOS.Application.Users.Commands;
-using LifeOS.Application.Users.Dtos;
-using LifeOS.Domain.Entities;
+using LifeCore.Application.Users.Commands;
+using LifeCore.Application.Users.Dtos;
+using LifeCore.Domain.Entities;
 
-namespace LifeOS.Application.Users.Profiles;
+namespace LifeCore.Application.Users.Profiles;
 
 public sealed class UserProfile : Profile
 {

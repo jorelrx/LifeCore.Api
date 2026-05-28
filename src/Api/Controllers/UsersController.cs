@@ -1,12 +1,12 @@
 using AutoMapper;
-using LifeOS.Application.Auth.Dtos;
-using LifeOS.Application.Users.Commands;
-using LifeOS.Application.Users.Dtos;
+using LifeCore.Application.Auth.Dtos;
+using LifeCore.Application.Users.Commands;
+using LifeCore.Application.Users.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MediatR;
 
-namespace LifeOS.Api.Controllers;
+namespace LifeCore.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

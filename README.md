@@ -1,6 +1,6 @@
-# LifeOS.API
+# LifeCore.API
 
-Backend do LifeOS, um sistema de gerenciamento de habitos e tarefas com integracao futura com Google Calendar e um aplicativo mobile consumindo a API.
+Backend do LifeCore, um sistema de gerenciamento de habitos e tarefas com integracao futura com Google Calendar e um aplicativo mobile consumindo a API.
 
 ## Stack
 
@@ -57,8 +57,8 @@ Depois disso, o projeto deve evoluir para tarefas, habitos, planner e calendario
 
 ```bash
 dotnet restore
-dotnet build LifeOS.API.sln
-dotnet run --project src/Api/LifeOS.Api.csproj
+dotnet build LifeCore.API.sln
+dotnet run --project src/Api/LifeCore.Api.csproj
 ```
 
 ## Roadmap
@@ -72,4 +72,29 @@ dotnet run --project src/Api/LifeOS.Api.csproj
 ## Observacoes
 
 - O projeto ainda esta na base inicial e deve evoluir para a arquitetura orientada a feature descrita acima.
-- Quando iniciar o desenvolvimento real, remover os artefatos padrao do template da API e substituir pelos recursos do dominio LifeOS.
+- Quando iniciar o desenvolvimento real, remover os artefatos padrao do template da API e substituir pelos recursos do dominio LifeCore.
+
+## Entidades principais
+
+### User
+- Id
+- Name
+- Email
+
+### Task
+- Id
+- UserId
+- Title
+- Description
+- Status
+- Priority
+- DueDate
+- RecurrenceType
+- CreatedAt
+
+### Habit
+- Id
+- UserId
+- Name
+- Frequency
+- Goal

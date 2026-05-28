@@ -1,8 +1,8 @@
-using LifeOS.Application.Users.Commands;
+using LifeCore.Application.Users.Commands;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace LifeOS.Application;
+namespace LifeCore.Application;
 
 public static class DependencyInjection
 {
